@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
-- master
+- *
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -25,7 +25,7 @@ steps:
   displayName: 'Run npm install'
   inputs:
     verbose: false
-    
+
 - script: './node_modules/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SpaceGame.Web/wwwroot'
   displayName: 'Compile Sass assets'
 
