@@ -1,0 +1,7 @@
+organization=dw-space-game-web-333
+projectKey=sgdavidw_mslearn-tailspin-spacegame-web
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.4927
+dashboardUrl=https://sonarcloud.io/dashboard?id=sgdavidw_mslearn-tailspin-spacegame-web
+ceTaskId=AXBxqMP3zK4hxVSneFTD
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXBxqMP3zK4hxVSneFTD
